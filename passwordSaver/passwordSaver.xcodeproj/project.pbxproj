@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6AB4FF020576C8A004D1AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4FEF20576C8A004D1AD9 /* AppDelegate.swift */; };
+		E6AB4FF220576C8A004D1AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4FF120576C8A004D1AD9 /* ViewController.swift */; };
+		E6AB4FF520576C8A004D1AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AB4FF320576C8A004D1AD9 /* Main.storyboard */; };
+		E6AB4FF820576C8A004D1AD9 /* passwordSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4FF620576C8A004D1AD9 /* passwordSaver.xcdatamodeld */; };
+		E6AB4FFA20576C8A004D1AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AB4FF920576C8A004D1AD9 /* Assets.xcassets */; };
+		E6AB4FFD20576C8A004D1AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AB4FFB20576C8A004D1AD9 /* LaunchScreen.storyboard */; };
+		E6AB500820576C8A004D1AD9 /* passwordSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB500720576C8A004D1AD9 /* passwordSaverTests.swift */; };
+		E6AB501320576C8A004D1AD9 /* passwordSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB501220576C8A004D1AD9 /* passwordSaverUITests.swift */; };
+		E6AB5027205770CA004D1AD9 /* AddToDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB5026205770CA004D1AD9 /* AddToDB.swift */; };
+		E6C5070B205B67AF001C7256 /* EasyCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C50706205B6627001C7256 /* EasyCoreData.framework */; };
+		E6C5070C205B67AF001C7256 /* EasyCoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6C50706205B6627001C7256 /* EasyCoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6AB500420576C8A004D1AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6AB4FE420576C8A004D1AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6AB4FEB20576C8A004D1AD9;
+			remoteInfo = passwordSaver;
+		};
+		E6AB500F20576C8A004D1AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6AB4FE420576C8A004D1AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6AB4FEB20576C8A004D1AD9;
+			remoteInfo = passwordSaver;
+		};
+		E6C50705205B6627001C7256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C50701205B6627001C7256 /* EasyCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 01B32A091EC443E2008664C5;
+			remoteInfo = EasyCoreData;
+		};
+		E6C5070D205B67AF001C7256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C50701205B6627001C7256 /* EasyCoreData.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B32A081EC443E2008664C5;
+			remoteInfo = EasyCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6C5070F205B67AF001C7256 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6C5070C205B67AF001C7256 /* EasyCoreData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6AB4FEC20576C8A004D1AD9 /* passwordSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passwordSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AB4FEF20576C8A004D1AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6AB4FF120576C8A004D1AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6AB4FF420576C8A004D1AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6AB4FF720576C8A004D1AD9 /* passwordSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = passwordSaver.xcdatamodel; sourceTree = "<group>"; };
+		E6AB4FF920576C8A004D1AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6AB4FFC20576C8A004D1AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6AB4FFE20576C8A004D1AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AB500320576C8A004D1AD9 /* passwordSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AB500720576C8A004D1AD9 /* passwordSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordSaverTests.swift; sourceTree = "<group>"; };
+		E6AB500920576C8A004D1AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AB500E20576C8A004D1AD9 /* passwordSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AB501220576C8A004D1AD9 /* passwordSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordSaverUITests.swift; sourceTree = "<group>"; };
+		E6AB501420576C8A004D1AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AB5026205770CA004D1AD9 /* AddToDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDB.swift; sourceTree = "<group>"; };
+		E6C50701205B6627001C7256 /* EasyCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyCoreData.xcodeproj; path = "../../SwiftyCoreData-master/EasyCoreData.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6AB4FE920576C8A004D1AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C5070B205B67AF001C7256 /* EasyCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB500020576C8A004D1AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB500B20576C8A004D1AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6AB4FE320576C8A004D1AD9 = {
+			isa = PBXGroup;
+			children = (
+				E6AB4FEE20576C8A004D1AD9 /* passwordSaver */,
+				E6AB500620576C8A004D1AD9 /* passwordSaverTests */,
+				E6AB501120576C8A004D1AD9 /* passwordSaverUITests */,
+				E6AB4FED20576C8A004D1AD9 /* Products */,
+				E6C50709205B677D001C7256 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AB4FED20576C8A004D1AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6AB4FEC20576C8A004D1AD9 /* passwordSaver.app */,
+				E6AB500320576C8A004D1AD9 /* passwordSaverTests.xctest */,
+				E6AB500E20576C8A004D1AD9 /* passwordSaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6AB4FEE20576C8A004D1AD9 /* passwordSaver */ = {
+			isa = PBXGroup;
+			children = (
+				E6C50701205B6627001C7256 /* EasyCoreData.xcodeproj */,
+				E6AB4FEF20576C8A004D1AD9 /* AppDelegate.swift */,
+				E6AB4FF120576C8A004D1AD9 /* ViewController.swift */,
+				E6AB5026205770CA004D1AD9 /* AddToDB.swift */,
+				E6AB4FF320576C8A004D1AD9 /* Main.storyboard */,
+				E6AB4FF920576C8A004D1AD9 /* Assets.xcassets */,
+				E6AB4FFB20576C8A004D1AD9 /* LaunchScreen.storyboard */,
+				E6AB4FFE20576C8A004D1AD9 /* Info.plist */,
+				E6AB4FF620576C8A004D1AD9 /* passwordSaver.xcdatamodeld */,
+			);
+			path = passwordSaver;
+			sourceTree = "<group>";
+		};
+		E6AB500620576C8A004D1AD9 /* passwordSaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6AB500720576C8A004D1AD9 /* passwordSaverTests.swift */,
+				E6AB500920576C8A004D1AD9 /* Info.plist */,
+			);
+			path = passwordSaverTests;
+			sourceTree = "<group>";
+		};
+		E6AB501120576C8A004D1AD9 /* passwordSaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6AB501220576C8A004D1AD9 /* passwordSaverUITests.swift */,
+				E6AB501420576C8A004D1AD9 /* Info.plist */,
+			);
+			path = passwordSaverUITests;
+			sourceTree = "<group>";
+		};
+		E6C50702205B6627001C7256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C50706205B6627001C7256 /* EasyCoreData.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6C50709205B677D001C7256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6AB4FEB20576C8A004D1AD9 /* passwordSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AB501720576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaver" */;
+			buildPhases = (
+				E6AB4FE820576C8A004D1AD9 /* Sources */,
+				E6AB4FE920576C8A004D1AD9 /* Frameworks */,
+				E6AB4FEA20576C8A004D1AD9 /* Resources */,
+				E6C5070F205B67AF001C7256 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C5070E205B67AF001C7256 /* PBXTargetDependency */,
+			);
+			name = passwordSaver;
+			productName = passwordSaver;
+			productReference = E6AB4FEC20576C8A004D1AD9 /* passwordSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6AB500220576C8A004D1AD9 /* passwordSaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AB501A20576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaverTests" */;
+			buildPhases = (
+				E6AB4FFF20576C8A004D1AD9 /* Sources */,
+				E6AB500020576C8A004D1AD9 /* Frameworks */,
+				E6AB500120576C8A004D1AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AB500520576C8A004D1AD9 /* PBXTargetDependency */,
+			);
+			name = passwordSaverTests;
+			productName = passwordSaverTests;
+			productReference = E6AB500320576C8A004D1AD9 /* passwordSaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6AB500D20576C8A004D1AD9 /* passwordSaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AB501D20576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaverUITests" */;
+			buildPhases = (
+				E6AB500A20576C8A004D1AD9 /* Sources */,
+				E6AB500B20576C8A004D1AD9 /* Frameworks */,
+				E6AB500C20576C8A004D1AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AB501020576C8A004D1AD9 /* PBXTargetDependency */,
+			);
+			name = passwordSaverUITests;
+			productName = passwordSaverUITests;
+			productReference = E6AB500E20576C8A004D1AD9 /* passwordSaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AB4FE420576C8A004D1AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ed Basurto";
+				TargetAttributes = {
+					E6AB4FEB20576C8A004D1AD9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E6AB500220576C8A004D1AD9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6AB4FEB20576C8A004D1AD9;
+					};
+					E6AB500D20576C8A004D1AD9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6AB4FEB20576C8A004D1AD9;
+					};
+				};
+			};
+			buildConfigurationList = E6AB4FE720576C8A004D1AD9 /* Build configuration list for PBXProject "passwordSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6AB4FE320576C8A004D1AD9;
+			productRefGroup = E6AB4FED20576C8A004D1AD9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E6C50702205B6627001C7256 /* Products */;
+					ProjectRef = E6C50701205B6627001C7256 /* EasyCoreData.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E6AB4FEB20576C8A004D1AD9 /* passwordSaver */,
+				E6AB500220576C8A004D1AD9 /* passwordSaverTests */,
+				E6AB500D20576C8A004D1AD9 /* passwordSaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E6C50706205B6627001C7256 /* EasyCoreData.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyCoreData.framework;
+			remoteRef = E6C50705205B6627001C7256 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6AB4FEA20576C8A004D1AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AB4FFD20576C8A004D1AD9 /* LaunchScreen.storyboard in Resources */,
+				E6AB4FFA20576C8A004D1AD9 /* Assets.xcassets in Resources */,
+				E6AB4FF520576C8A004D1AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB500120576C8A004D1AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB500C20576C8A004D1AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6AB4FE820576C8A004D1AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AB4FF220576C8A004D1AD9 /* ViewController.swift in Sources */,
+				E6AB4FF820576C8A004D1AD9 /* passwordSaver.xcdatamodeld in Sources */,
+				E6AB5027205770CA004D1AD9 /* AddToDB.swift in Sources */,
+				E6AB4FF020576C8A004D1AD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB4FFF20576C8A004D1AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AB500820576C8A004D1AD9 /* passwordSaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AB500A20576C8A004D1AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AB501320576C8A004D1AD9 /* passwordSaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6AB500520576C8A004D1AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6AB4FEB20576C8A004D1AD9 /* passwordSaver */;
+			targetProxy = E6AB500420576C8A004D1AD9 /* PBXContainerItemProxy */;
+		};
+		E6AB501020576C8A004D1AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6AB4FEB20576C8A004D1AD9 /* passwordSaver */;
+			targetProxy = E6AB500F20576C8A004D1AD9 /* PBXContainerItemProxy */;
+		};
+		E6C5070E205B67AF001C7256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyCoreData;
+			targetProxy = E6C5070D205B67AF001C7256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6AB4FF320576C8A004D1AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AB4FF420576C8A004D1AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6AB4FFB20576C8A004D1AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AB4FFC20576C8A004D1AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6AB501520576C8A004D1AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6AB501620576C8A004D1AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6AB501820576C8A004D1AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6AB501920576C8A004D1AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6AB501B20576C8A004D1AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwordSaver.app/passwordSaver";
+			};
+			name = Debug;
+		};
+		E6AB501C20576C8A004D1AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwordSaver.app/passwordSaver";
+			};
+			name = Release;
+		};
+		E6AB501E20576C8A004D1AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passwordSaver;
+			};
+			name = Debug;
+		};
+		E6AB501F20576C8A004D1AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ookami-Tech.passwordSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passwordSaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6AB4FE720576C8A004D1AD9 /* Build configuration list for PBXProject "passwordSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AB501520576C8A004D1AD9 /* Debug */,
+				E6AB501620576C8A004D1AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AB501720576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AB501820576C8A004D1AD9 /* Debug */,
+				E6AB501920576C8A004D1AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AB501A20576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AB501B20576C8A004D1AD9 /* Debug */,
+				E6AB501C20576C8A004D1AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AB501D20576C8A004D1AD9 /* Build configuration list for PBXNativeTarget "passwordSaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AB501E20576C8A004D1AD9 /* Debug */,
+				E6AB501F20576C8A004D1AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6AB4FF620576C8A004D1AD9 /* passwordSaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6AB4FF720576C8A004D1AD9 /* passwordSaver.xcdatamodel */,
+			);
+			currentVersion = E6AB4FF720576C8A004D1AD9 /* passwordSaver.xcdatamodel */;
+			path = passwordSaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6AB4FE420576C8A004D1AD9 /* Project object */;
+}
